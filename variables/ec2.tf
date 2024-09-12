@@ -1,3 +1,8 @@
+#command lines
+#.tfvars
+#environment variables TF_VAR_<variable name>. command export TF_VAR_<variable name>
+#default
+
 resource "aws_instance" "terraform" {
 
    ami = var.ami_id
