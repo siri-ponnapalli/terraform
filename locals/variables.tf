@@ -11,3 +11,6 @@ variable "instance_names" {
 #variable "hostzone_id" {
 # default = "Z0002129F7JN5W0O266T"
 #}
+variable "environment" {
+  default = "prod"
+}
